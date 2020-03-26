@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-cluster",
+  "version": "1.0.0",
+  "description": "cluster example in nodejs",
+  "main": "cluster.js",
+  "scripts": {
+    "start": "node cluster.js",
+    "benchmark": "ab -c 50 -n 500 localhost:3000/fast",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kshirodram/nodejs-cluster.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kshirodram/nodejs-cluster/issues"
+  },
+  "homepage": "https://github.com/Kshirodram/nodejs-cluster#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
